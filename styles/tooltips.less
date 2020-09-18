@@ -7,17 +7,19 @@
 
 .tooltip {
   .tooltip-inner {
-    line-height: 1;
+    line-height: 0.5;
     padding: .75em;
     white-space: nowrap;
     max-width: none;
+    color: darken(@text-color-selected,10%);
+    background: #3e04ab;
   }
 
   .keystroke {
     padding: .15em .4em;
     margin: 0 -.3em 0 .25em;
     border-radius: max(2px, @component-border-radius / 2);
-    color: @text-color-selected;
-    background: @background-color-selected;
+    color: darken(@text-color-selected,20%);
+    background: darken(@background-color-selected,20%);
   }
 }
