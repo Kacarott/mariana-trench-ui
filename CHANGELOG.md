@@ -1,3 +1,3 @@
-## 0.3.0 - First Release
+## 0.0.0 - First Release
 * Every feature added
 * Every bug added
